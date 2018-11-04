@@ -25,6 +25,8 @@ GameObject:
   - component: {fileID: 54663855626723546}
   - component: {fileID: 114183589531849572}
   - component: {fileID: 82625677258770976}
+  - component: {fileID: 114294078303691500}
+  - component: {fileID: 114423359930025032}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -211,6 +213,59 @@ MonoBehaviour:
   speed: 2.5
   acceleration: 0.1
   maxSpeed: 5
+--- !u!114 &114294078303691500
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1533178293116072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 121
+    i1: 125
+    i2: 64
+    i3: 18
+    i4: 72
+    i5: 123
+    i6: 88
+    i7: 228
+    i8: 25
+    i9: 197
+    i10: 223
+    i11: 234
+    i12: 160
+    i13: 175
+    i14: 195
+    i15: 175
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 0
+--- !u!114 &114423359930025032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1533178293116072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1768714887, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TransformSyncMode: 3
+  m_SendInterval: 0.033333335
+  m_SyncRotationAxis: 7
+  m_RotationSyncCompression: 0
+  m_SyncSpin: 0
+  m_MovementTheshold: 0.001
+  m_VelocityThreshold: 0.0001
+  m_SnapThreshold: 5
+  m_InterpolateRotation: 1
+  m_InterpolateMovement: 1
 --- !u!135 &135567413533680146
 SphereCollider:
   m_ObjectHideFlags: 1
